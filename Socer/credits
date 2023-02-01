@@ -1,0 +1,49 @@
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading (5)"
+wait(1)
+message:Destroy()
+end)                 task.wait(1)
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading (4)"
+wait(1)
+message:Destroy()
+end)                 task.wait(1)
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading (3)"
+wait(1)
+message:Destroy()
+end)                 task.wait(1)
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading (2)"
+wait(1)
+message:Destroy()
+end)                 task.wait(1)
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading (1)"
+wait(1)
+message:Destroy()
+end)                 task.wait(1)
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Loading ..."
+wait(1)
+message:Destroy()
+end)                 task.wait(0.5)
+
+--credits
+
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Made by Liver zMods"
+wait(3)
+message:Destroy()
+end)                 task.wait(0.2)
+
+                     print("Success")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LiverMods/ModsScriptsGames-/main/ZombieMeregeTycoonFarmBR"))()
+
